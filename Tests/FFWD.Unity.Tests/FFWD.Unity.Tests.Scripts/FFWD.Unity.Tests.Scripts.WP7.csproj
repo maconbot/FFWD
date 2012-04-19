@@ -56,9 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DisableTimer.cs" />
-    <Compile Include="GameObjects\AGameObjectCanBeConvertedToBool.cs" />
-    <Compile Include="GameObjects\CloningAGameObject.cs" />
-    <Compile Include="GameObjects\CloningHelper.cs" />
     <Compile Include="LayerChangeTimer.cs" />
     <Compile Include="MoveTimer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +77,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameObjects\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

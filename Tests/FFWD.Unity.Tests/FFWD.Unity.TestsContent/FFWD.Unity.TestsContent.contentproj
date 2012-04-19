@@ -40,13 +40,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Scenes\UnitTests.xml">
-      <Name>UnitTests</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>SceneProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="GUIFont.spritefont">
       <Name>GUIFont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -54,6 +47,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Scenes\BasicRendering.xml">
+      <Name>BasicRendering</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SceneProcessor</Processor>
+    </Compile>
     <Compile Include="Scenes\Lightmap.xml">
       <Name>Lightmap</Name>
       <Importer>XmlImporter</Importer>
@@ -112,13 +110,6 @@
       <Name>Shaders</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Scenes\BasicRendering.xml">
-      <Name>BasicRendering</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>SceneProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
